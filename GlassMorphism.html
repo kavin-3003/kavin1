@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>25cs529</title>
+
+        <style>
+            .container{
+                background-position: center;
+                border-radius: 25px;
+                
+                height: auto;
+                width: 50%;
+                margin-left:auto;
+                margin-right: auto;
+                max-width: 35%;
+                text-align: center;
+                background: rgba(109, 102, 102, 0.15);
+                backdrop-filter: blur(20px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+            }
+            .container img{
+                
+                max-width: 85%;
+                opacity: 0.7;
+                width: 500px;
+                border-radius: 10px;
+                height: auto;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                border :1px solid rgba(255, 255, 255, 0.3);
+            }
+            button:hover{
+                background-color: #0267ff9d;
+                color: rgba(255, 255, 255, 0.753);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                color: rgb(255, 255, 255);
+            }
+            button{
+                font-weight: bold;
+                margin-top: 20px;
+                vertical-align: middle;
+                padding: 15px;
+                border: none;
+                border-radius: 50px;
+                background-color: #118ed7b4;
+                color: rgba(255, 255, 255, 0.753);
+                
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+            }
+            .button{
+                padding: 10px;
+                margin-bottom: 10px;
+                margin-top: -20px;
+            }
+            body{
+                display: flex;
+                align-items: center;
+                background-color: rgba(31, 168, 214, 0.527);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:rgba(255, 255, 255, 0.89);
+                font-family: Arial, sans-serif;
+            }
+            .bg-video{
+                opacity: 0.79;
+                position: fixed;
+                z-index: -1;
+                right:0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+            }
+            p{
+                padding: 10px;
+            }
+            .text-box{
+                background: rgba(109, 102, 102, 0);
+                backdrop-filter: blur(50px);  
+                
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+        </style>
+    </head>
+
+
+    <body>
+        
+        <video autoplay muted loop class="bg-video">
+            <source src="https://developer.apple.com/design/new-design-gallery/images/hero-lg-d_2x.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <h3>Glassmorphism</h3>
+            <img src="https://i0.wp.com/artversion.com/wp-content/uploads/2025/07/liquid-glass-ui-element.jpg?fit=2366%2C1676&ssl=1" alt="Glassmorphism Example">
+            
+            <div class="text-box">
+                <p>Glass effect UI, or glassmorphism, is a design trend featuring semi-transparent, frosted-glass-like surfaces that create depth and hierarchyKey elements include background blurring, light-colored borders, and layering, making components appear to float over vibrant, colorful backgrounds. It offers a modern, luxurious feel commonly used in iOS and web apps. </p>
+
+            </div>
+            <div class="button">
+                <button onclick="window.location.href='https://chatgpt.com/s/t_69b12f2ce6a881918d2816fdef702e00'">Learn More</button>
+
+            </div>
+
+        </div>
+    </body>
+</html>
